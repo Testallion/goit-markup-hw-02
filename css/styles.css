@@ -121,6 +121,28 @@ letter-spacing: 0.02em;
     line-height: 30px;
 }
 
+/* Features */
+.hidden {
+    visibility: hidden;
+}
+
+.feature {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.description {
+    color: var(--alternative-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
 /* Section title */
 .section-title {
     color: var(--main-color);
@@ -130,32 +152,7 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
     text-align: center;
 }
-.feature {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-.description {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-}
 
-/* Features */
-.b {
-    visibility: hidden;
-}
-
-.feature .title {
-    color: var(--main-color);
-}
-
-.features .description {
-    color: var(--alternative-color)
-}
 
 /* Team */
 .section-team {
@@ -195,10 +192,10 @@ letter-spacing: 0.02em;
 
 .contact-nav2 {
     font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;  
-        letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;  
+    letter-spacing: 0.03em;
 }
 
 .footer-map {
