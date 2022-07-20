@@ -205,8 +205,7 @@ letter-spacing: 0.02em;
     color: var(--second-color2);
 }
 
-    /* Portfolio */
-/* Main */
+/* Portfolio Main */
 .filter-btn.current {
     background-color: var(--primary-background-color);
     color: var(--second-color);
