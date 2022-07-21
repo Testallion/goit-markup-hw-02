@@ -6,31 +6,27 @@
     --alternative-color: #757575;
     --second-color2:rgba(255, 255, 255, 0.6);
     --main-background-color: #E5E5E5;
+    --main-background-color2: #FFFFFF;
     --second-background-color: #2F303A;
     --primary-background-color: #2196F3;
-    --alternative-color2: #000000
+    --alternative-color2: #000000;
        
 }
 
 /* Body */
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
-    background: #FFFFFF;
+    color: var(--main-color);
+    background-color: var(--main-background-color2);
     
 }
 
 /* Decoration */
-button {
-    cursor: pointer;
-    border: none;
-}
-
-ul {
+.list {
     list-style: none;
 }
 
-a {
+.link {
     text-decoration: none;
     color: initial;
 }
@@ -41,11 +37,11 @@ a {
 }
 
 /* Site nav */
-.site-nav .current{
+.site-nav-link.current{
 color: var(--primary-color);
 }
 
-.site-nav a {
+.site-nav-link {
 color: var(--main-color);
 font-weight: 500;
 font-size: 14px;
@@ -53,23 +49,23 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
     color: var(--primary-color)
 }
 
 /* Contact nav */
 
-.contact-nav a{
+.contact-link{
     color: var(--alternative-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
-.contact-nav a:hover,
-.contact-nav a:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: var(--primary-color);
 }
 
@@ -79,7 +75,6 @@ letter-spacing: 0.02em;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     
@@ -102,7 +97,7 @@ letter-spacing: 0.02em;
     color: var(--second-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
@@ -118,7 +113,9 @@ letter-spacing: 0.02em;
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
+    cursor: pointer;
+    border: none;
 }
 
 /* Features */
@@ -130,16 +127,15 @@ letter-spacing: 0.02em;
     color: var(--main-color);
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .description {
     color: var(--alternative-color);
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
@@ -148,7 +144,7 @@ letter-spacing: 0.02em;
     color: var(--main-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: center;
 }
@@ -164,16 +160,15 @@ letter-spacing: 0.02em;
     color: var(--main-color);
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     text-align: center;
 }
 
 .team-position {
     color: var(--alternative-color);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     text-align: center;
 }
@@ -184,17 +179,16 @@ letter-spacing: 0.02em;
 }
 
 
-.contact-nav2 a:hover,
-.contact-nav2 a:focus {
+.footer-contact-link:hover,
+.footer-contact-link:focus {
     color: var(--primary-color);
     
 }
 
-.contact-nav2 {
+.contact-nav-footer {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;  
+    line-height: 1.71;  
     letter-spacing: 0.03em;
 }
 
@@ -227,19 +221,20 @@ letter-spacing: 0.02em;
     line-height: 1.62;
     letter-spacing: 0.03em;
     font-family: inherit;
+    cursor: pointer;
+    border: none;
 }
 
 .examples-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
 }
 
 .examples-category {
     color: var(--alternative-color);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
 }
