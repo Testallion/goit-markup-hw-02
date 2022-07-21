@@ -179,10 +179,15 @@ letter-spacing: 0.02em;
 }
 
 
-.footer-contact-link:hover,
-.footer-contact-link:focus {
+.footer-contact:hover,
+.footer-contact:focus {
     color: var(--primary-color);
     
+}
+.footer-contact-map:hover,
+.footer-contact-map:focus {
+    color: var(--primary-color);
+
 }
 
 .contact-nav-footer {
@@ -192,7 +197,7 @@ letter-spacing: 0.02em;
     letter-spacing: 0.03em;
 }
 
-.footer-map {
+.footer-contact-map {
     color: var(--second-color);
 }
 .footer-contact {
